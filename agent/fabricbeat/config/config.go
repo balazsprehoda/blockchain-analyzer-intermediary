@@ -44,14 +44,9 @@ var DefaultConfig = Config{
 	TemplateDirectory:    "/home/prehi/internship/testNetwork/hyperledger-elastic/agent/kibana_templates",
 	Chaincodes: []Chaincode{
 		Chaincode{
-			Name:       "dummycc",
-			LinkingKey: "previousKey",
-			Values:     []string{"hash"},
-		},
-		Chaincode{
-			Name:       "fabcar",
-			LinkingKey: "",
-			Values:     []string{"make", "model", "colour", "owner"},
+			Name:       "applechain",
+			LinkingKey: "link",
+			Values:     []string{"farm", "crate", "factory", "shop", "product"},
 		},
 	},
 }
